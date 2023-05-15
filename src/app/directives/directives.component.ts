@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DirectivesComponent {
   isAdmin: boolean = false;
-  toggleAdmin(): void {
+  changeAdmin(): void {
     this.isAdmin = !this.isAdmin;
   }
 }
