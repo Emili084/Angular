@@ -4,7 +4,7 @@
     <p>Citation : {{ user.quote }}</p>
     <input [(ngModel)]="user.quote" type="text">
     <p *ngIf="!user.isAgeHidden">Âge : {{ user.age }}</p>
-    <button (click)="toggleAgeVisibility()">Masquer l'âge</button>
+    <button (click)="ageVisibility()">Masquer l'âge</button>
     <p>Nom : {{ user.name }}</p>
     <p>Prénom : {{ user.firstName }}</p>
   </div>
