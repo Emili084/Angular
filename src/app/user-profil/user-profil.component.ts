@@ -40,7 +40,7 @@ export class UserProfilComponent {
       25,
       '',
       'https://randomuser.me/api/portraits/lego/2.jpg',
-      false
+      true
     );
   }
 
